@@ -1,3 +1,5 @@
+import Button from "../components/Button";
+
 export default function Login() {
   return (
     <section className="w-full h-screen flex flex-row">
@@ -7,7 +9,9 @@ export default function Login() {
           <span className="text-white font-[MorgantRegular] text-sm">AGENDA</span>
         </div>
       </div>
-      <div className="w-[60%] h-full bg-[#fff]"></div>
+      <div className="w-[60%] h-full bg-[#fff]">
+        <Button title={'Entrar'}></Button>
+      </div>
     </section>
   );
 }
