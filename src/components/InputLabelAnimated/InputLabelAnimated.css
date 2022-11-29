@@ -1,0 +1,11 @@
+#label{
+    position: absolute;
+    top: 1rem;
+    left: 0.7rem;
+    transform-origin: 0 0;
+    transition: transform 0.1s ease-in-out;
+}
+
+#input:focus + #label, #input:not(:placeholder-shown) + #label{
+    transform: translateY(-2rem) scale(0.8);    
+}
