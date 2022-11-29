@@ -18,10 +18,10 @@ export default function Login() {
             <img src="./src/assets/logo-roxo.png" alt="logo" className="w-[50%] mx-auto  md:hidden" />
             <span className="text-[#6327C8] font-[MorgantRegular] text-sm text-center mb-2  md:hidden">AGENDA</span>
             <form className="m-auto">
-              {/* <Input for="user" label={`Usuário`} size={`100`} placeholder="Insira seu usuário"></Input>
-              <Input for="password" label={`Senha`} size={`100`} type="password" placeholder="Insira sua senha"></Input> */}
-              <InputLabelAnimated label="Usuário"></InputLabelAnimated>
-              <InputLabelAnimated label="Senha"></InputLabelAnimated>
+              <Input id='user' label={`Usuário`} size={`100`} placeholder="Insira seu usuário"></Input>
+              <Input id='password' label={`Senha`} size={`100`} type="password" placeholder="Insira sua senha"></Input>
+              {/* <InputLabelAnimated id='user' label="Usuário"></InputLabelAnimated> */}
+              {/* <InputLabelAnimated id='password' label="Senha"></InputLabelAnimated> */}
               <Button title={'Entrar'} type="submit"></Button>
             </form>  
           </div>
