@@ -13,11 +13,15 @@ export default function Login() {
       </div>
       <div className="w-full md:w-[60%] h-full bg-[#fff]">
         <div className="w-[60%] h-full m-auto flex">
-          <form action='#' className="m-auto">
-            <Input label={`Usuário`} size={`100`} placeholder="Insira seu usuário"></Input>
-            <Input label={`Senha`} size={`100`} type="password" placeholder="Insira sua senha"></Input>
-            <Button title={'Entrar'} type="submit"></Button>
-          </form>
+          <div className="w-[80%] m-auto flex flex-col">
+            <img src="./src/assets/logo-roxo.png" alt="logo" className="w-[50%] mx-auto  md:hidden" />
+            <span className="text-[#6327C8] font-[MorgantRegular] text-sm text-center mb-2  md:hidden">AGENDA</span>
+            <form action='#' className="m-auto">
+              <Input label={`Usuário`} size={`100`} placeholder="Insira seu usuário"></Input>
+              <Input label={`Senha`} size={`100`} type="password" placeholder="Insira sua senha"></Input>
+              <Button title={'Entrar'} type="submit"></Button>
+            </form>  
+          </div>
         </div>
       </div>
     </section>
