@@ -1,9 +1,9 @@
 export default function NotFound(){
     return(
-        <div className="w-full h-screen bg-[#6327C8] flex justify-center">
+        <div className="w-full h-screen bg-[#5525BE] flex justify-center">
             <div className="w-max h-max flex flex-col items-center text-white absolute z-20 m-auto top-[40%]">
-                <h1>Desculpe, não foi possível encontrar esta página.</h1>
-                <button className="w-[60%] bg-white border-0 font-bold py-2 px-4 text-gray-600 rounded cursor-pointer my-4">
+                <h1 className="font-bold text-3xl">Desculpe, não foi possível encontrar esta página.</h1>
+                <button className="w-[60%] bg-white border-0 font-bold py-2 px-4 text-gray-600 rounded cursor-pointer my-8">
                     Voltar para
                     <span className="text-[#6327C8]"> Home</span>
                 </button>
@@ -14,7 +14,7 @@ export default function NotFound(){
                 alt="arvores-de-fundo"
             />
             <img
-            className="absolute w-[15%] left-0 right-0 m-auto bottom-0 z-10"
+            className="absolute w-[15%] left-0 right-0 m-auto bottom-16 z-10"
             src="../src/assets/NotFound/telescopio.png"
             alt="telescopio"
             />
