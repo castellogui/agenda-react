@@ -5,6 +5,9 @@ module.exports = {
         "./src/components/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
+        backgroundImage: {
+            'login-image':"url('../src/assets/login/login-background.jpg')"
+        },
         extend: {
             gridTemplateColumns: {
                 'auto-fit': 'repeat(auto-fit, minmax(0, 1fr))',
