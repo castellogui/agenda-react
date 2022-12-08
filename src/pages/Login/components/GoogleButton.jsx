@@ -1,10 +1,11 @@
-export default function GoogleButton() {
+export default function GoogleButton(props) {
   return (
-    <div id="googleButtonDiv" className="w-full h-10 flex justify-center my-5">
+    <div ref={props.refDiv} className="w-full h-10 flex justify-center my-5">
       <div
         id="g_id_onload"
         data-client_id={import.meta.env.VITE_GOOGLE_CLIENT_ID}
         data-login_uri="https://your.domain/your_login_endpoint"
+        data-callback="handleGoogleToken"
         data-auto_prompt="false"
       ></div>
       <div
