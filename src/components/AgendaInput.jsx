@@ -6,7 +6,6 @@ export default function AgendaInput(props) {
     >
       <label className="text-left">{props.label}</label>
       <input
-        type={`${props.type}`}
         {...props}
         className={`bg-white focus:outline-none px-4 py-2 rounded-lg ${props.customStyle}`}
       />
