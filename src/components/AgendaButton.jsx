@@ -4,7 +4,7 @@ export default function AgendaButton(props) {
       <button
         type="button"
         {...props}
-        className={`bg-[#020024] text-white py-1 px-2 transition-all hover:bg-[#352575] ${props.customStyle}`}
+        className={`bg-[#020024] text-white py-1 px-2 transition-all hover:bg-[#352575] ${props.customstyle}`}
       >
         {props.title}
       </button>
