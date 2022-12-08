@@ -70,7 +70,7 @@ function Login() {
         shape: "rectangular",
       });
     }
-  });
+  }, []);
 
   return (
     <section className="w-full h-screen flex flex-row bg-gradient-to-t from-[#461999] to-[#020024] relative">

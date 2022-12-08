@@ -4,7 +4,6 @@ export default function GoogleButton(props) {
       <div
         id="g_id_onload"
         data-client_id={import.meta.env.VITE_GOOGLE_CLIENT_ID}
-        data-login_uri="https://your.domain/your_login_endpoint"
         data-callback="handleGoogleToken"
         data-auto_prompt="false"
       ></div>
