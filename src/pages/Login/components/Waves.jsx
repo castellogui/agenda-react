@@ -1,5 +1,5 @@
-import firstWave from "../../assets/login/wave-1.svg";
-import secondWave from "../../assets/login/wave-2.svg";
+import firstWave from "../../../assets/login/wave-1.svg";
+import secondWave from "../../../assets/login/wave-2.svg";
 
 export default function Waves() {
   return (
