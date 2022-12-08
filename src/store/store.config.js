@@ -1,12 +1,8 @@
 import { createStore, combineReducers } from 'redux'
-
+import userReducer from './reducers/user'
 
 const reducers = combineReducers({
-    user: function (state, action) {
-        return {
-            a: `a`
-        }
-    }
+    user: userReducer,
 })
 
 function storeConfig() {
